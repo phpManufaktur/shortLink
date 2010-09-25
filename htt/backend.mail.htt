@@ -1,0 +1,24 @@
+<!-- $Id: backend.mail.htt 21 2009-07-05 05:49:57Z ralf $ -->
+<h2>{header}</h2>
+{intro}
+<form name="{form_name}" action="{form_action}" method="post">
+  <input type="hidden" name="{action_name}" value="{action_value}" />
+  <input type="hidden" name="{by_name}" value="{by_value}" />
+  <input type="hidden" name="{sl_name}" value="{sl_value}" />
+  <table width="100%">
+    <colgroup>
+      <col width="20%" />
+      <col width="30%" />
+      <col width="20%" />
+      <col width="30%" />
+    </colgroup>
+    {items}
+    <tr><td colspan="4">&nbsp;</td></tr>
+    <tr>
+      <td colspan="4">
+        <input type="submit" value="{btn_ok}" />&nbsp;
+        <input type="button" value="{btn_abort}" onclick="javascript: window.location = '{abort_location}'; return false;" />
+      </td>
+    </tr>
+  </table>
+</form>

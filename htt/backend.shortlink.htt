@@ -1,0 +1,21 @@
+<!-- $Id: backend.shortlink.htt 7 2009-06-26 01:58:59Z ralf $ -->
+<h2>{header}</h2>
+{intro}
+<form name="{form_name}" action="{form_action}" method="post">
+  <input type="hidden" name="{action_name}" value="{action_value}" />
+  <table width="100%">
+    <colgroup>
+      <col width="20%" />
+      <col width="30%" />
+      <col width="50%" />
+    </colgroup>
+    {items}
+    <tr><td colspan="3">&nbsp;</td></tr>
+    <tr>
+      <td colspan="3">
+        <input type="submit" value="{btn_ok}" />&nbsp;
+        <input type="button" value="{btn_abort}" onclick="javascript: window.location = '{abort_location}'; return false;" />
+      </td>
+    </tr>
+  </table>
+</form>

@@ -1,0 +1,29 @@
+<!-- $Id: backend.info.htt 27 2009-07-10 08:44:58Z ralf $ -->
+<h2>{header}</h2>
+<div class="copyright">
+{copyright}
+</div>
+<div class="anleitung">
+{anleitung}
+<div>
+<pre class="code_sample">
+$starttime = array_sum(explode(" ",microtime()));
+
+// Include config file
+require_once(dirname(__FILE__).'/config.php');
+
+// Check if the config file has been set-up
+if(!defined('WB_PATH')) {
+  header("Location: install/index.php");
+  exit(0);
+}
+
+// ShortLink
+if (file_exists(WB_PATH.'/modules/shortlink/class.shortlink.php')) {
+  require_once(WB_PATH.'/modules/shortlink/initialize.php');
+  shortLink();
+}
+</pre>
+<div class="anleitung">
+{anleitung_2}
+</div>

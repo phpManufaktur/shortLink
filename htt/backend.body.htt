@@ -1,0 +1,5 @@
+<!-- $Id: backend.body.htt 4 2009-06-24 13:04:15Z ralf $ -->
+<div class="sl-backend">
+  {navigation}
+  <div{class}>{content}</div>
+</div>

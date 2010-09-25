@@ -1,0 +1,21 @@
+<!-- $Id: backend.download.htt 16 2009-06-29 16:03:07Z ralf $ -->
+<h2>{header}</h2>
+{intro}
+<form enctype="multipart/form-data" name="{form_name}" action="{form_action}" method="post">
+  <input type="hidden" name="{action_name}" value="{action_value}" />
+  <table width="100%">
+    <colgroup>
+      <col width="20%" />
+      <col width="30%" />
+      <col width="50%" />
+    </colgroup>
+    {items}
+    <tr><td colspan="3">&nbsp;</td></tr>
+    <tr>
+      <td colspan="3">
+        <input type="submit" value="{btn_ok}" />&nbsp;
+        <input type="button" value="{btn_abort}" onclick="javascript: window.location = '{abort_location}'; return false;" />
+      </td>
+    </tr>
+  </table>
+</form>

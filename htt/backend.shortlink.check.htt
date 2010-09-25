@@ -1,0 +1,24 @@
+<!-- $Id: backend.shortlink.check.htt 21 2009-07-05 05:49:57Z ralf $ -->
+<h2>{header}</h2>
+{intro}
+<form name="{form_name}" action="{form_action}" method="post">
+  <input type="hidden" name="{action_name}" value="{action_value}" />
+  <input type="hidden" name="{id_name}" value="{id_value}"  />
+  <table width="100%">
+    <colgroup>
+      <col width="20%" />
+      <col width="30%" />
+      <col width="50%" />
+    </colgroup>
+    {items}
+    <tr><td colspan="3">&nbsp;</td></tr>
+    <tr>
+      <td colspan="3">
+        <input type="button" value="{btn_new}" onclick="javascript: window.location = '{new_location}'; return false;" />&nbsp;
+        <input type="submit" value="{btn_edit}" />&nbsp;
+        <input type="button" value="{btn_mail}" onclick="javascript: window.location = '{mail_location}'; return false;" />&nbsp;
+        <input type="button" value="{btn_abort}" onclick="javascript: window.location = '{abort_location}'; return false;" />
+      </td>
+    </tr>
+  </table>
+</form>

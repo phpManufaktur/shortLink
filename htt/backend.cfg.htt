@@ -1,0 +1,27 @@
+<!-- $Id: backend.cfg.htt 8 2009-06-26 01:59:36Z ralf $ -->
+<form name="{form_name}" action="{form_action}" method="post">
+  <input type="hidden" name="{action_name}" value="{action_value}" />
+  <input type="hidden" name="{items_name}" value="{items_value}" />
+  <h2>{header}</h2>
+  {intro}
+  <table width="100%">
+    <colgroup>
+      <col width="15%" />
+      <col width="15%" />
+      <col width="10%" />
+      <col width="25%" />
+      <col width="35%" />
+    </colgroup>
+    {items}
+    <tr>
+      <td colspan="5">&nbsp;</td>
+    </tr>
+    {add}
+    <tr>
+      <td colspan="5">
+        <input type="submit" value="{btn_ok}" />&nbsp;
+        <input type="button" value="{btn_abort}" onclick="javascript: window.location = '{abort_location}'; return false;" />
+      </td>
+    </tr>
+  </table>
+</form>

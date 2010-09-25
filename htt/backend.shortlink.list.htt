@@ -1,0 +1,18 @@
+<!-- $Id: backend.shortlink.list.htt 17 2009-06-29 19:00:55Z ralf $ -->
+<h2>{header}</h2>
+{intro}
+<table>
+  <colgroup>
+    <col width="5%" /><!-- ID -->
+    <col width="2%" /><!-- DISK -->
+    <col width="37%" /><!-- ShortLink -->
+    <col width="6%" /><!-- Param -->
+    <col width="8%" /><!-- Name -->
+    <col width="2%" /><!-- use_once -->
+    <col width="6%" /><!-- valid_until -->
+    <col width="6%" /><!-- count -->
+    <col width="14%" /><!-- last_exec -->
+    <col width="14%" /><!-- last_update -->
+  </colgroup>
+  {items}
+</table>
