@@ -13,15 +13,14 @@
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.
-  
+
   $Id: precheck.php 32 2010-04-07 04:14:15Z ralf $
-  
+
 **/
 
 
 // Checking Requirements
 
-$PRECHECK['WB_VERSION'] = array('VERSION' => '2.8', 'OPERATOR' => '>=');
 $PRECHECK['PHP_VERSION'] = array('VERSION' => '5.2.0', 'OPERATOR' => '>=');
 $PRECHECK['PHP_EXTENSIONS'] = array('mysqli');
 $PRECHECK['WB_ADDONS'] = array(

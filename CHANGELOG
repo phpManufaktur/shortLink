@@ -1,0 +1,54 @@
+### shortLink
+
+IMPORTANT: shortLink is deprecated and will no longer developed!
+
+Release 0.20 - 2012-06-21
+
+* added CHANGELOG
+* added LICENSE
+* added README.md
+* changed WebsiteBaker version check
+
+Release 0.19 - 2010-09-17
+
+* Fixed some small Problems
+
+Release 0.18 - 2010-04-07
+
+* Fixed again Problems with sending E-Mails
+
+Release 0.17 - 2010-04-06
+
+* Fixed Problems with sending E-Mails
+
+Release 0.16 - 2009-09-07.09
+
+* Added Interface to WB USERS and to PrintShop
+* Added EN.php
+
+Release 0.15 - 2009-07-05
+
+* Added E-Mail Dialog, Interface for access to other address databases
+* fixed some small bugs
+
+Release 0.14 - 2009-06-30
+
+* Fixed Upgrade sl_label_cfg_developer_mode
+
+Release 0.13 - 2009-06-30
+
+* Added Download Service
+
+Release 0.12 - 2009-06-28
+
+* Fixed Use Until
+
+Release 0.11 - 2009-06-27
+
+* Added Features: Use Once, Use Name, Use Until.
+* Added Editing ShortLinks, Added Options Dialog,
+* Added ShortLink List
+                  
+Release 0.10 - 2009-06-24
+
+* First BETA Release
